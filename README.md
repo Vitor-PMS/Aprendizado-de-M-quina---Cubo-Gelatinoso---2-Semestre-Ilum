@@ -13,8 +13,9 @@ Como o *target* é binário (correspondendo a ter ou não ter CKD), foi utilizad
 * Implementação de um modelo *baseline* para comparação de desempenho;
 * Criação e treinamento de 12 modelos com hiperparâmetros diferentes, variando:
   * O valor de K;
-  * A métrica de distância (euclidiana, manhattan e chebyshev);
+  * A métrica de distância (euclidiana e manhattan);
   * O conjunto de atributos utilizados durante o treinamento (todos e subset). O subset foi definido a partir de estudos científicos sobre a correlação entre diferentes parâmetros e o CKD;
+* Criação e treinamento de 3 modelos com métricas de distância diferentes (euclidiana, manhattan e chebyshev);
 * Análise detalhada de todos os resultados por meio de gráficos;
 * Conclusões e principais aprendizados;
 * Interações com a AI e referências.
